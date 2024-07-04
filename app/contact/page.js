@@ -10,7 +10,7 @@ export default function Home() {
             <div className="col-12 col-lg-6">
               <div className="row justify-content-xl-center">
                 <div className="col-12 col-xl-11">
-                  <h2 className="h1 mb-3">ถ้าอยากติดต่อมาหาพวกเรา</h2>
+                  <h2 className="h1 mb-3">สามารถติดต่อเราได้ที่</h2>
                   <p className="lead fs-4 text-secondary mb-5"></p>
                   <div className="d-flex mb-5">
                     <div className="me-4 text-primary">
@@ -32,18 +32,21 @@ export default function Home() {
                           </svg>
                         </div>
                         <div>
+                          <h4 className="mb-3">Phone</h4>
+                          <p className="mb-0">
+                            <a className="link-secondary text-decoration-none" href="tel:+094191191">094-191-191</a>
+                          </p>
                         </div>
                       </div>
                     </div>
                     <div className="col-12 col-sm-6">
-                      <div className="d-flex mb-0">
+                      <div className="d-flex">
                         <div className="me-4 text-primary">
-                          <img width="" height="" className="d-inline-block align-text-top" />
                         </div>
                         <div>
-                          <h4 className="mb-3">Phone</h4>
+                          <h4 className="mb-3">Email</h4>
                           <p className="mb-0">
-                            <a className="link-secondary text-decoration-none" href="mailto:contact@bootbrains.com">094-191-191</a>
+                            <a className="link-secondary text-decoration-none" href="Katon@gmail.com">Katon@gmail.com</a>
                           </p>
                         </div>
                       </div>
@@ -51,6 +54,9 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+            </div>
+            <div className="col-12 col-lg-6">
+              {/* Add any additional content for the right column here */}
             </div>
           </div>
         </div>

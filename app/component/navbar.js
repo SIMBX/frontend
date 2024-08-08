@@ -23,8 +23,8 @@ export default function Home() {
         </form>
 
         <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
-          <button type="button" class="btn btn-warning">Sign-up</button>
+        <Link href="/login"><button type="button" class="btn btn-outline-light me-2">Login</button></Link>
+        <Link href="/signup"><button type="button" class="btn btn-warning">Sign-up</button></Link>
         </div>
       </div>
     </div>

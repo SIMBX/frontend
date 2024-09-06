@@ -40,8 +40,8 @@ export default function Login() {
   };
 
   return (
-    <div className="container mt-5">
-      <h2>Login</h2>
+    <div className="container mt-5" style={{ maxWidth: '400px', margin: 'auto' }}>
+      <h2 className="text-center mb-4">Login</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="username" className="form-label">Username</label>
@@ -65,16 +65,16 @@ export default function Login() {
             required
           />
         </div>
-        <button type="submit" className="btn btn-primary">Login</button>
+        <button type="submit" className="btn btn-primary w-100 mb-2">Login</button>
         <button
           type="button"
-          className="btn btn-secondary ms-2"
+          className="btn btn-secondary w-100"
           onClick={handleBackToHome}
         >
           Back to Home
         </button>
       </form>
-      {message && <p className="mt-3">{message}</p>} {/* แสดงข้อความ */}
+      {message && <p className="mt-3 text-center" style={{ color: message.includes('successful') ? 'green' : 'red' }}>{message}</p>} {/* แสดงข้อความ */}
     </div>
   );
 }
